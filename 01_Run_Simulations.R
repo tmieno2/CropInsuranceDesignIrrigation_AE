@@ -233,7 +233,7 @@ for (irc in irc_ls) {
     if (num_obs_temp < num_complete) {
 
       #' calculation for the missing combinations of AY and RY
-      source(here("Codes/01_3_FinalPeriodSim_residual.R"))
+      source(here("Codes/01_3_FinalPeriodSim_remaining.R"))
 
     }
 
